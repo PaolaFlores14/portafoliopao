@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;600&display=swap');
+
+body{
+	font-family: 'Montserrat' regular;
+	font-size: 16px;
+	color: #000 ;
+	background-color: #fff;
+}
+p{
+	font-family: 'Montserrat';
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Allura';
+	color: #F78AA6;
+}
+
+#header{
+	background-color: #fff;
+	padding: 0px 20px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #000 !important;
+}
+#servicios{
+	padding: 10px;
+}
+
+#sobremi{
+	background-color: #F78AA6;
+	align-content: center;
+
+
+}
+
+#sobremi h1{
+	font-family: "Allura";
+	font-size: 90px;
+	color: #fff;
+	padding-top: 90px;
+	
+}
+
+#sobremi h1 span{
+	color: #000;
+}
+
+#sobremi p{
+	
+	font-size: 20px;
+}
+
+#sobremi .img-fluid {
+margin-left: 100px;
+}
+
+#servicios{
+	padding: 30px;
+	background-color: #FFFFFF;
+	
+align-items: center;
+}
+
+#servicios h2{
+	
+	font-size: 55px;
+	text-align: center;
+	padding: 10px 0;
+	color: #F78AA6;
+}
+
+#servicios img{
+	width: 450px;
+	height: 300px;
+	padding: 0 10px;
+}
+
+#servicios h4{
+	text-align: center;
+	
+	font-size: 24px;
+	padding: 10px 0;
+}
+
+#servicios p{
+	text-align: center;
+	
+	font-size: 15px;
+	padding: 5px 0;
+	color: #484848;
+}
+
+#servicios .btn-info {
+	font-size: 16px;
+	color: #fff;
+	background-color: #F78AA6;
+	border: transparent;
+	border-radius: 15px;
+	margin-left: 90px;
+}
+
+#sobremi .btn-light {
+	background-color: transparent;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+}
+
+#empaques h2, #ilustracion h2, #marcas h2, #editorial h2{
+	padding: 40px;
+}
+
+#empaques h3{
+	text-align: center;
+	font-size: 70px;
+	color: #89006E;
+	padding: 30px;
+	padding-top: 70px;
+}
+#contacto {
+padding: 30px;
+
+}
+#contacto .btn{
+	background-color: #F78AA6;
+	color: #ffff;
+}
+
+footer{
+	background-color: #F78AA6;
+	color: #fff;
+text-align: center;
+	padding: 3px;
+	
+}
+footer h3{
+	font-size: 70px;
+	text-align: start;
+	color: #fff;
+	
+}
+footer .fab{
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+
+
